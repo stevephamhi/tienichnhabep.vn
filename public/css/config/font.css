@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "tienitnhabep-mainFont";
+    src: url('../../font-family/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "tienitnhabep-mainFont-Light";
+    src: url('../../font-family/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "tienitnhabep-mainFont-Bold";
+    src: url('../../font-family/Roboto-Bold.ttf');
+}

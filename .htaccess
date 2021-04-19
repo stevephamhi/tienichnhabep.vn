@@ -1,0 +1,54 @@
+RewriteEngine On
+
+RewriteRule "^([a-zA-Z0-9_-]+)-([a-zA-Z0-9_-]+)-p([0-9]+).html" "index.php?controller=Product&id=$3"
+
+RewriteRule "^([a-zA-Z0-9_-]+)-([a-zA-Z0-9_-]+)-c([0-9]+)" "index.php?controller=CateProduct&id=$3"
+
+RewriteRule "^ho-tro-mua-hang/([a-zA-Z0-9_-]+)-ip([0-9]+)" "index.php?controller=Product&action=infosupport&id=$2"
+
+RewriteRule "^([a-zA-Z0-9_-]+)-b([0-9]+)" "index.php?controller=Brand&id=$2"
+
+RewriteRule "^san-pham-thanh-ly-gia-re" "index.php?controller=Liquidation"
+
+RewriteRule "^san-pham-cu-gia-re" "index.php?controller=Productsold"
+
+RewriteRule "^dai-ly" "index.php?controller=Agency"
+
+RewriteRule "^([a-zA-Z0-9_-]+)-([a-zA-Z0-9_-]+)-i([0-9]+).html" "index.php?controller=Aboutus&id=$3"
+
+RewriteRule "^danh-muc-san-pham.html" "index.php?controller=Mobilemenu"
+
+RewriteRule "^dang-nhap.html" "index.php?controller=User&action=login"
+
+RewriteRule "^dang-ky.html" "index.php?controller=User&action=register"
+
+RewriteRule "^xac-nhan-dang-ky.html" "index.php?controller=User&action=confirmTokenRegister"
+
+RewriteRule "^thay-doi-mat-khau.html" "index.php?controller=User&action=confirmChangePassword"
+
+RewriteRule "^dang-xuat.html" "index.php?controller=User&action=logout"
+
+RewriteRule "^quen-mat-khau.html" "index.php?controller=User&action=forgotPassword"
+
+RewriteRule "^don-hang-cua-toi.html" "index.php?controller=User&action=history"
+
+RewriteRule "^thong-tin-ca-nhan.html" "index.php?controller=User&action=profile"
+
+RewriteRule "^so-dia-chi.html" "index.php?controller=User&action=address_store"
+
+RewriteRule "^([a-zA-Z0-9_-]+)/m([0-9]+)/([a-zA-Z0-9_-]+).html" "index.php?controller=Module&id=$2"
+
+RewriteRule "^gio-hang.html" "index.php?controller=Cart"
+
+RewriteRule "^dia-chi-thanh-toan.html" "index.php?controller=Cart&action=shipping"
+
+RewriteRule "^phuong-thuc-thanh-toan.html" "index.php?controller=Cart&action=payment"
+
+RewriteRule "^trang-thai-don-hang.html" "index.php?controller=Cart&action=order_received_new"
+
+RewriteRule "^chi-tiet-don-hang.html" "index.php?controller=User&action=detailOrder"
+
+RewriteRule ^search/(.*)$ index.php?controller=Search&q=$1 [QSA]
+
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

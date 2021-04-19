@@ -1,0 +1,170 @@
+#user_app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin_wrap {
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+}
+
+.formLogin_wrap .addon_icon {
+    padding: 10px 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.formLogin_wrap form#formFogotten {
+    padding: 10px 20px;
+}
+
+.formLogin_wrap form#formLogin {
+    padding: 20px 30px;
+}
+
+.logoUser_wrap {
+    margin-bottom: 15px;
+}
+
+.formLogin_wrap .form_group {
+    padding: 10px 0;
+}
+
+.formLogin_wrap .form_group .form_label {
+    font-weight: bold;
+    font-size: .8rem;
+    margin-bottom: 4px;
+    display: block;
+    color: #5c5c5c;
+}
+
+.formLogin_wrap .form_group .addon_input {
+    height: 100%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dadada;
+}
+
+form#formLogin .form_group .form_control {
+    width: 320px;
+}
+
+form#formFogotten .form_group .form_control {
+    width: 450px;
+}
+
+.formLogin_wrap .form_group .form_control {
+    font-family: "tienichnhabep-mainFont";
+    padding: 7px 10px;
+    font-size: 1rem;
+    padding-left: 50px;
+    border-radius: 0;
+    border-color: #dadada;
+}
+
+.formLogin_wrap .form_group .form_control:focus {
+    box-shadow: 0 0 5px rgba(31, 134, 200, .7);
+}
+
+.formLogin_wrap .form_group .form_control::placeholder {
+    font-size: .9rem;
+}
+
+.help_user {
+    display: inline-block;
+    font-size: .9rem;
+    color: #1f86c8;
+}
+
+.formLogin_wrap .form_group .form_button {
+    font-family: "tienichnhabep-mainFont";
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    padding: 8px 0;
+    cursor: pointer;
+    background-color: #1f86c8;
+    color: #fff;
+    border: 1px solid #1f86c8;
+}
+
+.remember_user {
+    cursor: pointer;
+}
+
+.remember_user .checkbox_fake {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(120, 120, 120);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+    position: relative;
+    z-index: 1;
+    color: rgb(120, 120, 120);
+}
+.remember_user .checkbox_fake::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    width: 12px;
+    height: 6px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transform: scale(0) rotate(-45deg);
+    transition: transform 0.3s ease 0s;
+}
+.remember_user input[name="remember_user"]:checked+.checkbox_fake {
+    border-color: rgb(27, 168, 255);
+    background-color: rgb(27, 168, 255);
+}
+.remember_user input[name="remember_user"]:checked+.checkbox_fake::before {
+    transform: scale(1) rotate(-45deg);
+}
+
+.copyright {
+    font-family: "tienichnhabep-mainFont-Light";
+    text-align: center;
+    margin-top: 10px;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+
+.copyright a {
+    color: #1f86c8;
+}
+
+.header_top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.comBack_login {
+    width: 50px;
+    height: 37px;
+    background-color: #FF9800;
+    border: 1px solid #FF9800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: #fff;
+}
+
+/* error user */
+.error {
+    font-size: .8rem;
+    font-style: italic;
+    color: #eb0303;
+}

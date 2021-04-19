@@ -1,0 +1,199 @@
+/* ========== ########## START MAIN_CONTENT ########## ========== */
+main.main_content {
+    margin-left: var(--size-width-aside);
+    transition: all .5s ease;
+    margin-top: 50px;
+}
+/* page header */
+.page_header {
+    margin: 15px 0;
+}
+
+.page_header h1 {
+    font-family: "tienichnhabep-mainFont-Light";
+    font-weight: 100;
+    color: #888888;
+    font-size: 1.9rem;
+    margin-right: 10px;
+}
+
+.page_header .breadcrumb li a {
+    font-family: "tienichnhabep-mainFont-Light";
+    color: #888888;
+    font-size: .7rem;
+    padding: 5px 0;
+}
+
+.page_header .breadcrumb li+li a::before {
+    content: "/";
+    padding: 0 10px;
+
+}
+
+.page_header .breadcrumb li.active a {
+    color: #2196F3;
+}
+/* page_content */
+.page_content.container_fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page_content .box_content_item {
+    padding: 0 13px;
+}
+
+.page_content .box_content_item .box_wrap {
+    background-color: #279FE0;
+}
+
+.page_content .box_content_item .box_wrap .heading {
+    font-family: "tienichnhabep-mainFont-Light";
+    padding: 5px 8px;
+    background-color: #1E91CF;
+    color: #FFF;
+    font-size: .8rem;
+}
+
+.page_content .box_content_item .box_wrap .body {
+    padding: 15px;
+    color: #FFFFFF;
+    line-height: 48px;
+}
+
+.page_content .box_content_item .box_wrap .body i {
+    font-size: 50px;
+    opacity: 0.3;
+    transition: all 1s;
+}
+
+.page_content .box_content_item .box_wrap:hover .body i {
+    opacity: 1;
+}
+
+.page_content .box_content_item .box_wrap .body .value {
+    font-size: 2rem;
+}
+
+.page_content .box_content_item .box_wrap .footer {
+    padding: 5px 8px;
+    background-color: #3DA9E3;
+}
+
+.page_content .box_content_item .box_wrap .footer a {
+    font-family: "tienichnhabep-mainFont-Light";
+    color: #FFF;
+    font-size: .8rem;
+}
+
+/* panel_row_item */
+.panel_row_item {
+    margin-top: 20px;
+}
+.panel_row_item .panel_content_item {
+    padding: 0 13px;
+    margin-bottom: 20px;
+}
+
+.panel_row_item .panel_content_item .panel_box {
+    border: 1px solid #E5E5E5;
+    border-top: 3px solid #E5E5E5;
+}
+
+.panel_row_item .panel_content_item .panel_box .panel_heading {
+    padding: 7px 15px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.panel_row_item .panel_content_item .panel_box .panel_heading .panel_title {
+    color: #333333;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.panel_row_item .panel_content_item .panel_box .panel_heading .panel_title i {
+    margin-right: 5px;
+}
+
+.panel_content_item .panel_box .panel_body {
+    padding: 15px;
+    height: 300px;
+    overflow: auto;
+}
+
+.panel_content_item .panel_box .media {
+    margin-bottom: 10px;
+}
+
+.panel_content_item .panel_box .media_left {
+    border: 1px solid #E5E5E5;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.panel_content_item .panel_box .media_right {
+    font-size: .9rem;
+}
+
+.panel_content_item .panel_box .media_right .media_heading {
+    color: #464646;
+    margin-bottom: 5px;
+}
+
+.panel_content_item .panel_box .media_right .media_content {
+    margin-bottom: 4px;
+}
+
+.panel_content_item .panel_box .media_right .media_content a {
+    color: #2196F3;
+}
+
+.panel_content_item .panel_box .media_right .media_heading span,
+.panel_content_item .panel_box .media_right .label,
+.panel_content_item .panel_box .media_right .label+a {
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+
+/* table_wrap */
+.table_wrap table.table {
+    width: 100%;
+}
+
+.table_wrap table.table thead {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.table_wrap table.table thead tr td {
+    font-weight: bold;
+}
+
+.table_wrap table.table tr td {
+    font-family: "tienichnhabep-mainFont-Light";
+    padding: 10px 5px;
+    text-align: center;
+    font-size: .9rem;
+    color: #333333;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.table_wrap table.table tr td:last-child {
+    border-right: 0;
+}
+
+.table_wrap table.table tr:last-child td {
+    border-bottom: 0;
+}
+
+.table_wrap table.table tr td a.view {
+    background-color:#00BCD4;
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    line-height: 35px;
+    font-size: 1.1rem;
+}
+/* ========== ########## END MAIN_CONTENT ########## ========== */

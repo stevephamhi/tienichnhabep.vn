@@ -1,0 +1,283 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* header page regis agency */
+.header_page_regis_agency .header_top {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+
+
+.header_page_regis_agency .contact_us li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+}
+
+
+
+.header_page_regis_agency i.fa {
+    background: #2a670e;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 5px;
+}
+
+.header_page_regis_agency .contact_us a {
+    color: #333;
+}
+
+.header_page_regis_agency .header_bottom {
+    background-color: #2a670e;
+    padding: 15px 0;
+}
+
+.header_page_regis_agency .header_bottom .left .logo {
+    display: inline-block;
+}
+
+@media screen and (min-width: 320px) {
+    .header_page_regis_agency .header_top {
+        display: none;
+    }
+    .header_page_regis_agency .header_bottom .midde .label {
+        font-size: .9rem;
+    }
+    .header_page_regis_agency .header_bottom .right .menu_list a {
+        font-size: 1.4rem;
+        padding-left: 5px;
+    }
+    .sec_info_1 .image {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header_page_regis_agency .header_top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .header_page_regis_agency .header_bottom .midde .label {
+        font-size: 1rem;
+    }
+    .header_page_regis_agency .header_bottom .right .menu_list a {
+        font-size: 1.4rem;
+        padding-left: 0;
+    }
+    .sec_info_1 .image {
+        margin-bottom: 0;
+    }
+}
+
+.header_page_regis_agency .header_bottom .midde .icon {
+    margin-right: 10px;
+}
+
+.header_page_regis_agency .header_bottom .midde .label {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.header_page_regis_agency .header_bottom .midde .phone {
+    font-family: "tienitnhabep-mainFont-Bold";
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.header_page_regis_agency .header_bottom .right .menu_list a {
+    font-family: "tienitnhabep-mainFont-Bold";
+    color: #fff;
+}
+
+.header_page_regis_agency .header_bottom .logo img {
+    -moz-filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+/* main */
+.main_sc {
+    margin-top: 0;
+}
+
+/* banner_top */
+.banner_top {
+    padding: 100px 0;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+.banner_top .content h4 {
+    color: #fff;
+    font-family: "tienitnhabep-mainFont-Bold";
+    font-size: 2rem;
+}
+.banner_top .content p {
+    color: #fff;
+    padding: 10px 0;
+}
+.banner_top .content .btn_regis {
+    background: #2a670e;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+            box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    margin-top: 10px;
+}
+.banner_top .content .btn_regis:hover {
+    background-color: #3a7b1c;
+}
+/* sec_info_1 */
+.sec_info_1 {
+    padding: 50px 0;
+}
+.sec_info_1 .content_list {
+    padding-left: 50px;
+}
+.sec_info_1 .content_list h3 {
+    color: #3a7b1c;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.sec_info_1 .content_list h2 {
+    font-family: "tienitnhabep-mainFont-Bold";
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.sec_info_1 .content_list h4 {
+    margin-bottom: 20px;
+}
+.sec_info_1 .content_list .TP_list_feature li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+.sec_info_1 .content_list .TP_list_feature li::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #3a7b1c;
+    border-radius: 100%;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+}
+
+/* sec_info_2 */
+.sec_info_2 {
+    padding: 50px 0;
+}
+.sec_info_2 .contant_title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.sec_info_2 .contant_title p {
+    margin-bottom: 5px;
+}
+.form_regis_wrap #form_register_agency {
+    background: #fff;
+    width: 50%;
+}
+
+.form_regis_wrap #form_register_agency .title {
+    padding: 20px 30px;
+    border-bottom: 1px solid #558fa5;
+    background: #2a670e;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.form_regis_wrap #form_register_agency .form_inner {
+    padding: 20px 30px;
+}
+
+#form_register_agency .form_inner .form_group {padding: 10px 0;}
+
+#form_register_agency .form_inner .form_control {
+    padding: 7px 10px;
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+#form_register_agency .form_inner .form_button {
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "tienitnhabep-mainFont-Bold";
+    color: #000;
+    border: 1px solid #dfdfdf;
+    background: #dfdfdf;
+}
+
+/* info footer */
+.info_footer {
+    padding: 15px 0;
+}
+.info_footer a {
+    color: #111111;
+    font-size: 1.4rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+    padding: 3px 0;
+}
+.info_footer i {
+    background: #2a670e;
+    color: #fff;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+            flex: 0 0 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 5px;
+}
